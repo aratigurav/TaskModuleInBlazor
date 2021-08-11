@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.9",
+  "version": "1.0.0",
+  "id": "ea0ccbc2-e8e8-4c4f-84b6-816ceea49231",
+  "packageName": "com.company.example",
+  "developer": {
+    "name": "My Company",
+    "websiteUrl": "https://localhost:44357",
+    "privacyUrl": "https://localhost:44357/privacy",
+    "termsOfUseUrl": "https://localhost:44357/termsofuse"
+  },
+  "icons": {
+    "color": "../color.png",
+    "outline": "../outline.png"
+  },
+  "name": {
+    "short": "TaskModuleInBlazor",
+    "full": "TaskModuleInBlazor"
+  },
+  "description": {
+    "short": "Short description for TaskModuleInBlazor.",
+    "full": "Full description of TaskModuleInBlazor."
+  },
+  "webApplicationInfo": {
+    "id": "e5ecd149-b809-4a18-9df1-72608636a368",
+    "resource": "api://localhost/e5ecd149-b809-4a18-9df1-72608636a368"
+  },
+  "accentColor": "#FFFFFF",
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "localhost"
+  ],
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://localhost:44357/config",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team",
+        "groupchat"
+      ]
+    }
+  ],
+  "staticTabs": [
+    {
+      "entityId": "index",
+      "name": "Personal Tab",
+      "contentUrl": "https://localhost:44357/tab",
+      "websiteUrl": "https://localhost:44357/tab",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ]
+}
